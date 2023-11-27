@@ -1,0 +1,54 @@
+html{
+	height: 80%;
+	width: 100%;
+}
+body{
+	min-height:100vh;
+	display: grid;
+	place-items: center;
+}
+#form-container{
+	width: 350px;
+	height: 300px;
+
+	padding: 30px;
+}
+#title{
+	text-align: center;
+	font-size:50px ;
+	font-weight:800;
+	font-family: inherit,sans-serif;
+}
+p{
+	text-align: center;
+	color: darkgreen;
+	font-size: 20px;
+}
+#form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom:10px ;
+	color:darkgreen;
+
+}
+.input{
+	border-radius:15px;
+	border: 1px solid ;
+	padding:10px  ;
+	cutline:none;
+}
+.btn{
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+cursor: pointer;
+box-shadow: silver;
+}
+.btn.btn{
+background-color: darkgreen;
+color: white;
+font-weight: 700;
+}

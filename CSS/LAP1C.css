@@ -1,0 +1,99 @@
+h1{color: green;}
+body {margin:2%}
+h1{font-weight:800;}
+body{background-color:silver;}
+hover{color: maroon;background-color:F47915;}
+header{
+	height: 70 vh ;
+	position: relative;
+}
+#navber{
+	display:flex;
+	margin: 100 px;
+	justify-content:space-between;
+	align-items: centerte;
+	badding:50 px;
+}
+#navber img{
+	width: 100px;
+	margin-left:100px;
+}
+#navber ul {
+	display: flex;
+	margin-right: 100 px;
+	padding:20px ;
+	font-weight: 700;
+}
+#navbar ul il a{
+	padding:50 px ;
+	color:silver;
+	font-weight:700;
+}
+#navber ul il
+ a{
+ 	padding: 1%;
+ 	margin-right: 30px;
+ 	background: darkgreen;
+
+ }
+
+ hover{
+ 	border-bottom: gray 2 px;
+ 	padding: 18%;
+ }
+header{
+	text-align: center;
+	padding: 10%;
+}
+header h1 {
+	font-size: 200%;
+	color: darkgreen;
+
+}
+header p{
+	margin: 40 px;
+	color: darksilver;
+	padding: 2 ;
+font-size: 45	;
+}
+header nav {
+padding: 1 px ;
+}
+active{
+	color: darkgreen;
+}
+a{
+	padding: 1%;
+	margin-right: 30px;
+	background: darkgreen;
+	text-decoration: none;
+	border-radius: 5px;
+}
+a:hover{
+	padding: 4%;
+	margin-right: 50px;
+}
+#head{
+	padding: 1%;
+	margin-right: 30 px;
+	background:lightgreen;
+	text-align: center;
+	font-size: 40	;
+	}
+
+#ae{
+	text-align: center;
+
+}
+#he{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 75%;
+	margin:40 px;
+	color:darksilver;
+	padding: 2 px;
+	font-size:45;
+}
+
